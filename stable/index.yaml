@@ -3,7 +3,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:27:50.668878322Z"
+    created: "2019-09-27T06:44:00.410448856Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +26,31 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:27:50.66663913Z"
+  soyodo:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:44:00.41139119Z"
+    description: Sample helm chart for study
+    digest: 3ee6e6921b18d21d0de4bac850cd4d859fb85c7ab2879e41356be85956d1b122
+    engine: gotpl
+    home: https://bugulbugul.github.io/helmcharts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    - koscom
+    - soyodo
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: soyodo@naver.com
+      name: Youngdo Song
+    - email: songyodo@gmail.com
+      name: Youngdo Song
+    name: soyodo
+    sources:
+    - https://bugulbugul.github.io/helmcharts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - soyodo-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-09-27T06:44:00.404768259Z"
